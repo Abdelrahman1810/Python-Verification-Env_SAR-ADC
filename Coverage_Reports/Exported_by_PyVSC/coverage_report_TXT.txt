@@ -1,0 +1,1076 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /cg_inst
+=== Design Unit: du
+=================================================================================
+
+Covergroup Coverage:
+    Covergroups                      1        na        na   100.00%
+        Coverpoints/Crosses          7        na        na        na
+            Covergroup Bins         71        71         0   100.00%
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /cg_inst/SARADCCoverGroup                       100.00%        100          -    Covered              
+    covered/total bins:                                    71         71          -                      
+    missing/total bins:                                     0         71          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint cp_V_in                                100.00%        100          -    Covered              
+        covered/total bins:                                16         16          -                      
+        missing/total bins:                                 0         16          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin V_in_range[0]                                  58          1          -    Covered              
+        bin V_in_range[1]                                  66          1          -    Covered              
+        bin V_in_range[2]                                  59          1          -    Covered              
+        bin V_in_range[3]                                  72          1          -    Covered              
+        bin V_in_range[4]                                  53          1          -    Covered              
+        bin V_in_range[5]                                  61          1          -    Covered              
+        bin V_in_range[6]                                  73          1          -    Covered              
+        bin V_in_range[7]                                  66          1          -    Covered              
+        bin V_in_range[8]                                  60          1          -    Covered              
+        bin V_in_range[9]                                  62          1          -    Covered              
+        bin V_in_range[10]                                 66          1          -    Covered              
+        bin V_in_range[11]                                 63          1          -    Covered              
+        bin V_in_range[12]                                 62          1          -    Covered              
+        bin V_in_range[13]                                 64          1          -    Covered              
+        bin V_in_range[14]                                 58          1          -    Covered              
+        bin V_in_range[15]                                 61          1          -    Covered              
+    Coverpoint cp_preset                              100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin reset_active                                   32          1          -    Covered              
+        bin reset_inactive                                972          1          -    Covered              
+    Coverpoint cp_psample_rate                        100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin mod1                                          254          1          -    Covered              
+        bin mod2                                          250          1          -    Covered              
+        bin mod3                                          250          1          -    Covered              
+        bin mod4                                          250          1          -    Covered              
+    Coverpoint cp_pEOC                                100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin taken                                          99          1          -    Covered              
+    Coverpoint cp_pD_out                              100.00%        100          -    Covered              
+        covered/total bins:                                16         16          -                      
+        missing/total bins:                                 0         16          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin D_out_range[0]                                  6          1          -    Covered              
+        bin D_out_range[1]                                 23          1          -    Covered              
+        bin D_out_range[2]                                 33          1          -    Covered              
+        bin D_out_range[3]                                 13          1          -    Covered              
+        bin D_out_range[4]                                 64          1          -    Covered              
+        bin D_out_range[5]                                 23          1          -    Covered              
+        bin D_out_range[6]                                 38          1          -    Covered              
+        bin D_out_range[7]                                 20          1          -    Covered              
+        bin D_out_range[8]                                595          1          -    Covered              
+        bin D_out_range[9]                                 21          1          -    Covered              
+        bin D_out_range[10]                                31          1          -    Covered              
+        bin D_out_range[11]                                15          1          -    Covered              
+        bin D_out_range[12]                                56          1          -    Covered              
+        bin D_out_range[13]                                24          1          -    Covered              
+        bin D_out_range[14]                                27          1          -    Covered              
+        bin D_out_range[15]                                15          1          -    Covered              
+    Cross cross_EOC_D_out                             100.00%        100          -    Covered              
+        covered/total bins:                                16         16          -                      
+        missing/total bins:                                 0         16          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <taken,D_out_range[0]>                      5          1          -    Covered              
+            bin <taken,D_out_range[1]>                      9          1          -    Covered              
+            bin <taken,D_out_range[2]>                      6          1          -    Covered              
+            bin <taken,D_out_range[3]>                      3          1          -    Covered              
+            bin <taken,D_out_range[4]>                      6          1          -    Covered              
+            bin <taken,D_out_range[5]>                      8          1          -    Covered              
+            bin <taken,D_out_range[6]>                      8          1          -    Covered              
+            bin <taken,D_out_range[7]>                      6          1          -    Covered              
+            bin <taken,D_out_range[8]>                      7          1          -    Covered              
+            bin <taken,D_out_range[9]>                      7          1          -    Covered              
+            bin <taken,D_out_range[10]>                     6          1          -    Covered              
+            bin <taken,D_out_range[11]>                     4          1          -    Covered              
+            bin <taken,D_out_range[12]>                     6          1          -    Covered              
+            bin <taken,D_out_range[13]>                     9          1          -    Covered              
+            bin <taken,D_out_range[14]>                     3          1          -    Covered              
+            bin <taken,D_out_range[15]>                     6          1          -    Covered              
+    Cross cross_EOC_V_in                              100.00%        100          -    Covered              
+        covered/total bins:                                16         16          -                      
+        missing/total bins:                                 0         16          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <taken,V_in_range[0]>                       3          1          -    Covered              
+            bin <taken,V_in_range[1]>                       3          1          -    Covered              
+            bin <taken,V_in_range[2]>                      10          1          -    Covered              
+            bin <taken,V_in_range[3]>                       9          1          -    Covered              
+            bin <taken,V_in_range[4]>                       1          1          -    Covered              
+            bin <taken,V_in_range[5]>                       5          1          -    Covered              
+            bin <taken,V_in_range[6]>                       5          1          -    Covered              
+            bin <taken,V_in_range[7]>                       8          1          -    Covered              
+            bin <taken,V_in_range[8]>                       5          1          -    Covered              
+            bin <taken,V_in_range[9]>                       7          1          -    Covered              
+            bin <taken,V_in_range[10]>                      4          1          -    Covered              
+            bin <taken,V_in_range[11]>                      8          1          -    Covered              
+            bin <taken,V_in_range[12]>                      6          1          -    Covered              
+            bin <taken,V_in_range[13]>                      9          1          -    Covered              
+            bin <taken,V_in_range[14]>                      6          1          -    Covered              
+            bin <taken,V_in_range[15]>                     10          1          -    Covered              
+ Covergroup instance SARADCCoverGroup                  87.50%        100          -    Uncovered            
+    covered/total bins:                                    66         71          -                      
+    missing/total bins:                                     5         71          -                      
+    % Hit:                                             92.95%        100          -                      
+    Coverpoint cp_V_in                                100.00%        100          -    Covered              
+        covered/total bins:                                16         16          -                      
+        missing/total bins:                                 0         16          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin V_in_range[0]                                  11          1          -    Covered              
+        bin V_in_range[1]                                  21          1          -    Covered              
+        bin V_in_range[2]                                  18          1          -    Covered              
+        bin V_in_range[3]                                  21          1          -    Covered              
+        bin V_in_range[4]                                  14          1          -    Covered              
+        bin V_in_range[5]                                  17          1          -    Covered              
+        bin V_in_range[6]                                  21          1          -    Covered              
+        bin V_in_range[7]                                  16          1          -    Covered              
+        bin V_in_range[8]                                  18          1          -    Covered              
+        bin V_in_range[9]                                  20          1          -    Covered              
+        bin V_in_range[10]                                 11          1          -    Covered              
+        bin V_in_range[11]                                 16          1          -    Covered              
+        bin V_in_range[12]                                 15          1          -    Covered              
+        bin V_in_range[13]                                  8          1          -    Covered              
+        bin V_in_range[14]                                 11          1          -    Covered              
+        bin V_in_range[15]                                 13          1          -    Covered              
+    Coverpoint cp_preset                              100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin reset_active                                    5          1          -    Covered              
+        bin reset_inactive                                246          1          -    Covered              
+    Coverpoint cp_psample_rate                         25.00%        100          -    Uncovered            
+        covered/total bins:                                 1          4          -                      
+        missing/total bins:                                 3          4          -                      
+        % Hit:                                         25.00%        100          -                      
+        bin mod1                                          251          1          -    Covered              
+        bin mod2                                            0          1          -    ZERO                 
+        bin mod3                                            0          1          -    ZERO                 
+        bin mod4                                            0          1          -    ZERO                 
+    Coverpoint cp_pEOC                                100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin taken                                          46          1          -    Covered              
+    Coverpoint cp_pD_out                              100.00%        100          -    Covered              
+        covered/total bins:                                16         16          -                      
+        missing/total bins:                                 0         16          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin D_out_range[0]                                  3          1          -    Covered              
+        bin D_out_range[1]                                 12          1          -    Covered              
+        bin D_out_range[2]                                 15          1          -    Covered              
+        bin D_out_range[3]                                  6          1          -    Covered              
+        bin D_out_range[4]                                 28          1          -    Covered              
+        bin D_out_range[5]                                 12          1          -    Covered              
+        bin D_out_range[6]                                 14          1          -    Covered              
+        bin D_out_range[7]                                  8          1          -    Covered              
+        bin D_out_range[8]                                 64          1          -    Covered              
+        bin D_out_range[9]                                 11          1          -    Covered              
+        bin D_out_range[10]                                14          1          -    Covered              
+        bin D_out_range[11]                                 8          1          -    Covered              
+        bin D_out_range[12]                                26          1          -    Covered              
+        bin D_out_range[13]                                 9          1          -    Covered              
+        bin D_out_range[14]                                12          1          -    Covered              
+        bin D_out_range[15]                                 9          1          -    Covered              
+    Cross cross_EOC_D_out                             100.00%        100          -    Covered              
+        covered/total bins:                                16         16          -                      
+        missing/total bins:                                 0         16          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <taken,D_out_range[0]>                      2          1          -    Covered              
+            bin <taken,D_out_range[1]>                      5          1          -    Covered              
+            bin <taken,D_out_range[2]>                      3          1          -    Covered              
+            bin <taken,D_out_range[3]>                      1          1          -    Covered              
+            bin <taken,D_out_range[4]>                      2          1          -    Covered              
+            bin <taken,D_out_range[5]>                      5          1          -    Covered              
+            bin <taken,D_out_range[6]>                      2          1          -    Covered              
+            bin <taken,D_out_range[7]>                      3          1          -    Covered              
+            bin <taken,D_out_range[8]>                      3          1          -    Covered              
+            bin <taken,D_out_range[9]>                      4          1          -    Covered              
+            bin <taken,D_out_range[10]>                     2          1          -    Covered              
+            bin <taken,D_out_range[11]>                     3          1          -    Covered              
+            bin <taken,D_out_range[12]>                     3          1          -    Covered              
+            bin <taken,D_out_range[13]>                     3          1          -    Covered              
+            bin <taken,D_out_range[14]>                     1          1          -    Covered              
+            bin <taken,D_out_range[15]>                     4          1          -    Covered              
+    Cross cross_EOC_V_in                               87.50%        100          -    Uncovered            
+        covered/total bins:                                14         16          -                      
+        missing/total bins:                                 2         16          -                      
+        % Hit:                                         87.50%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <taken,V_in_range[0]>                       2          1          -    Covered              
+            bin <taken,V_in_range[1]>                       3          1          -    Covered              
+            bin <taken,V_in_range[2]>                       6          1          -    Covered              
+            bin <taken,V_in_range[3]>                       5          1          -    Covered              
+            bin <taken,V_in_range[4]>                       0          1          -    ZERO                 
+            bin <taken,V_in_range[5]>                       1          1          -    Covered              
+            bin <taken,V_in_range[6]>                       2          1          -    Covered              
+            bin <taken,V_in_range[7]>                       5          1          -    Covered              
+            bin <taken,V_in_range[8]>                       2          1          -    Covered              
+            bin <taken,V_in_range[9]>                       5          1          -    Covered              
+            bin <taken,V_in_range[10]>                      2          1          -    Covered              
+            bin <taken,V_in_range[11]>                      3          1          -    Covered              
+            bin <taken,V_in_range[12]>                      3          1          -    Covered              
+            bin <taken,V_in_range[13]>                      4          1          -    Covered              
+            bin <taken,V_in_range[14]>                      0          1          -    ZERO                 
+            bin <taken,V_in_range[15]>                      3          1          -    Covered              
+ Covergroup instance SARADCCoverGroup_1                84.82%        100          -    Uncovered            
+    covered/total bins:                                    60         71          -                      
+    missing/total bins:                                    11         71          -                      
+    % Hit:                                             84.50%        100          -                      
+    Coverpoint cp_V_in                                100.00%        100          -    Covered              
+        covered/total bins:                                16         16          -                      
+        missing/total bins:                                 0         16          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin V_in_range[0]                                  11          1          -    Covered              
+        bin V_in_range[1]                                  14          1          -    Covered              
+        bin V_in_range[2]                                   6          1          -    Covered              
+        bin V_in_range[3]                                  19          1          -    Covered              
+        bin V_in_range[4]                                  10          1          -    Covered              
+        bin V_in_range[5]                                  22          1          -    Covered              
+        bin V_in_range[6]                                  19          1          -    Covered              
+        bin V_in_range[7]                                  13          1          -    Covered              
+        bin V_in_range[8]                                  14          1          -    Covered              
+        bin V_in_range[9]                                  15          1          -    Covered              
+        bin V_in_range[10]                                 21          1          -    Covered              
+        bin V_in_range[11]                                 16          1          -    Covered              
+        bin V_in_range[12]                                 17          1          -    Covered              
+        bin V_in_range[13]                                 25          1          -    Covered              
+        bin V_in_range[14]                                 16          1          -    Covered              
+        bin V_in_range[15]                                 13          1          -    Covered              
+    Coverpoint cp_preset                              100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin reset_active                                    7          1          -    Covered              
+        bin reset_inactive                                244          1          -    Covered              
+    Coverpoint cp_psample_rate                         50.00%        100          -    Uncovered            
+        covered/total bins:                                 2          4          -                      
+        missing/total bins:                                 2          4          -                      
+        % Hit:                                         50.00%        100          -                      
+        bin mod1                                            1          1          -    Covered              
+        bin mod2                                          250          1          -    Covered              
+        bin mod3                                            0          1          -    ZERO                 
+        bin mod4                                            0          1          -    ZERO                 
+    Coverpoint cp_pEOC                                100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin taken                                          24          1          -    Covered              
+    Coverpoint cp_pD_out                               93.75%        100          -    Uncovered            
+        covered/total bins:                                15         16          -                      
+        missing/total bins:                                 1         16          -                      
+        % Hit:                                         93.75%        100          -                      
+        bin D_out_range[0]                                  0          1          -    ZERO                 
+        bin D_out_range[1]                                  4          1          -    Covered              
+        bin D_out_range[2]                                  5          1          -    Covered              
+        bin D_out_range[3]                                  2          1          -    Covered              
+        bin D_out_range[4]                                 17          1          -    Covered              
+        bin D_out_range[5]                                 10          1          -    Covered              
+        bin D_out_range[6]                                 12          1          -    Covered              
+        bin D_out_range[7]                                  4          1          -    Covered              
+        bin D_out_range[8]                                151          1          -    Covered              
+        bin D_out_range[9]                                  4          1          -    Covered              
+        bin D_out_range[10]                                 9          1          -    Covered              
+        bin D_out_range[11]                                 3          1          -    Covered              
+        bin D_out_range[12]                                13          1          -    Covered              
+        bin D_out_range[13]                                 7          1          -    Covered              
+        bin D_out_range[14]                                 8          1          -    Covered              
+        bin D_out_range[15]                                 2          1          -    Covered              
+    Cross cross_EOC_D_out                              75.00%        100          -    Uncovered            
+        covered/total bins:                                12         16          -                      
+        missing/total bins:                                 4         16          -                      
+        % Hit:                                         75.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <taken,D_out_range[0]>                      0          1          -    ZERO                 
+            bin <taken,D_out_range[1]>                      2          1          -    Covered              
+            bin <taken,D_out_range[2]>                      0          1          -    ZERO                 
+            bin <taken,D_out_range[3]>                      1          1          -    Covered              
+            bin <taken,D_out_range[4]>                      3          1          -    Covered              
+            bin <taken,D_out_range[5]>                      3          1          -    Covered              
+            bin <taken,D_out_range[6]>                      2          1          -    Covered              
+            bin <taken,D_out_range[7]>                      1          1          -    Covered              
+            bin <taken,D_out_range[8]>                      2          1          -    Covered              
+            bin <taken,D_out_range[9]>                      1          1          -    Covered              
+            bin <taken,D_out_range[10]>                     3          1          -    Covered              
+            bin <taken,D_out_range[11]>                     0          1          -    ZERO                 
+            bin <taken,D_out_range[12]>                     1          1          -    Covered              
+            bin <taken,D_out_range[13]>                     3          1          -    Covered              
+            bin <taken,D_out_range[14]>                     2          1          -    Covered              
+            bin <taken,D_out_range[15]>                     0          1          -    ZERO                 
+    Cross cross_EOC_V_in                               75.00%        100          -    Uncovered            
+        covered/total bins:                                12         16          -                      
+        missing/total bins:                                 4         16          -                      
+        % Hit:                                         75.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <taken,V_in_range[0]>                       0          1          -    ZERO                 
+            bin <taken,V_in_range[1]>                       0          1          -    ZERO                 
+            bin <taken,V_in_range[2]>                       1          1          -    Covered              
+            bin <taken,V_in_range[3]>                       2          1          -    Covered              
+            bin <taken,V_in_range[4]>                       0          1          -    ZERO                 
+            bin <taken,V_in_range[5]>                       3          1          -    Covered              
+            bin <taken,V_in_range[6]>                       1          1          -    Covered              
+            bin <taken,V_in_range[7]>                       1          1          -    Covered              
+            bin <taken,V_in_range[8]>                       3          1          -    Covered              
+            bin <taken,V_in_range[9]>                       2          1          -    Covered              
+            bin <taken,V_in_range[10]>                      0          1          -    ZERO                 
+            bin <taken,V_in_range[11]>                      1          1          -    Covered              
+            bin <taken,V_in_range[12]>                      3          1          -    Covered              
+            bin <taken,V_in_range[13]>                      3          1          -    Covered              
+            bin <taken,V_in_range[14]>                      3          1          -    Covered              
+            bin <taken,V_in_range[15]>                      1          1          -    Covered              
+ Covergroup instance SARADCCoverGroup_2                81.25%        100          -    Uncovered            
+    covered/total bins:                                    56         71          -                      
+    missing/total bins:                                    15         71          -                      
+    % Hit:                                             78.87%        100          -                      
+    Coverpoint cp_V_in                                100.00%        100          -    Covered              
+        covered/total bins:                                16         16          -                      
+        missing/total bins:                                 0         16          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin V_in_range[0]                                  20          1          -    Covered              
+        bin V_in_range[1]                                  18          1          -    Covered              
+        bin V_in_range[2]                                  18          1          -    Covered              
+        bin V_in_range[3]                                  19          1          -    Covered              
+        bin V_in_range[4]                                  17          1          -    Covered              
+        bin V_in_range[5]                                   9          1          -    Covered              
+        bin V_in_range[6]                                  19          1          -    Covered              
+        bin V_in_range[7]                                  18          1          -    Covered              
+        bin V_in_range[8]                                  17          1          -    Covered              
+        bin V_in_range[9]                                   7          1          -    Covered              
+        bin V_in_range[10]                                  9          1          -    Covered              
+        bin V_in_range[11]                                 12          1          -    Covered              
+        bin V_in_range[12]                                 15          1          -    Covered              
+        bin V_in_range[13]                                 15          1          -    Covered              
+        bin V_in_range[14]                                 17          1          -    Covered              
+        bin V_in_range[15]                                 21          1          -    Covered              
+    Coverpoint cp_preset                              100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin reset_active                                   14          1          -    Covered              
+        bin reset_inactive                                237          1          -    Covered              
+    Coverpoint cp_psample_rate                         50.00%        100          -    Uncovered            
+        covered/total bins:                                 2          4          -                      
+        missing/total bins:                                 2          4          -                      
+        % Hit:                                         50.00%        100          -                      
+        bin mod1                                            1          1          -    Covered              
+        bin mod2                                            0          1          -    ZERO                 
+        bin mod3                                          250          1          -    Covered              
+        bin mod4                                            0          1          -    ZERO                 
+    Coverpoint cp_pEOC                                100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin taken                                          16          1          -    Covered              
+    Coverpoint cp_pD_out                               93.75%        100          -    Uncovered            
+        covered/total bins:                                15         16          -                      
+        missing/total bins:                                 1         16          -                      
+        % Hit:                                         93.75%        100          -                      
+        bin D_out_range[0]                                  2          1          -    Covered              
+        bin D_out_range[1]                                  2          1          -    Covered              
+        bin D_out_range[2]                                  6          1          -    Covered              
+        bin D_out_range[3]                                  3          1          -    Covered              
+        bin D_out_range[4]                                 14          1          -    Covered              
+        bin D_out_range[5]                                  1          1          -    Covered              
+        bin D_out_range[6]                                 12          1          -    Covered              
+        bin D_out_range[7]                                  8          1          -    Covered              
+        bin D_out_range[8]                                183          1          -    Covered              
+        bin D_out_range[9]                                  1          1          -    Covered              
+        bin D_out_range[10]                                 1          1          -    Covered              
+        bin D_out_range[11]                                 0          1          -    ZERO                 
+        bin D_out_range[12]                                 8          1          -    Covered              
+        bin D_out_range[13]                                 4          1          -    Covered              
+        bin D_out_range[14]                                 4          1          -    Covered              
+        bin D_out_range[15]                                 2          1          -    Covered              
+    Cross cross_EOC_D_out                              62.50%        100          -    Uncovered            
+        covered/total bins:                                10         16          -                      
+        missing/total bins:                                 6         16          -                      
+        % Hit:                                         62.50%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <taken,D_out_range[0]>                      2          1          -    Covered              
+            bin <taken,D_out_range[1]>                      0          1          -    ZERO                 
+            bin <taken,D_out_range[2]>                      1          1          -    Covered              
+            bin <taken,D_out_range[3]>                      1          1          -    Covered              
+            bin <taken,D_out_range[4]>                      1          1          -    Covered              
+            bin <taken,D_out_range[5]>                      0          1          -    ZERO                 
+            bin <taken,D_out_range[6]>                      4          1          -    Covered              
+            bin <taken,D_out_range[7]>                      2          1          -    Covered              
+            bin <taken,D_out_range[8]>                      1          1          -    Covered              
+            bin <taken,D_out_range[9]>                      0          1          -    ZERO                 
+            bin <taken,D_out_range[10]>                     0          1          -    ZERO                 
+            bin <taken,D_out_range[11]>                     0          1          -    ZERO                 
+            bin <taken,D_out_range[12]>                     2          1          -    Covered              
+            bin <taken,D_out_range[13]>                     1          1          -    Covered              
+            bin <taken,D_out_range[14]>                     0          1          -    ZERO                 
+            bin <taken,D_out_range[15]>                     1          1          -    Covered              
+    Cross cross_EOC_V_in                               62.50%        100          -    Uncovered            
+        covered/total bins:                                10         16          -                      
+        missing/total bins:                                 6         16          -                      
+        % Hit:                                         62.50%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <taken,V_in_range[0]>                       1          1          -    Covered              
+            bin <taken,V_in_range[1]>                       0          1          -    ZERO                 
+            bin <taken,V_in_range[2]>                       2          1          -    Covered              
+            bin <taken,V_in_range[3]>                       0          1          -    ZERO                 
+            bin <taken,V_in_range[4]>                       1          1          -    Covered              
+            bin <taken,V_in_range[5]>                       0          1          -    ZERO                 
+            bin <taken,V_in_range[6]>                       1          1          -    Covered              
+            bin <taken,V_in_range[7]>                       1          1          -    Covered              
+            bin <taken,V_in_range[8]>                       0          1          -    ZERO                 
+            bin <taken,V_in_range[9]>                       0          1          -    ZERO                 
+            bin <taken,V_in_range[10]>                      1          1          -    Covered              
+            bin <taken,V_in_range[11]>                      2          1          -    Covered              
+            bin <taken,V_in_range[12]>                      0          1          -    ZERO                 
+            bin <taken,V_in_range[13]>                      1          1          -    Covered              
+            bin <taken,V_in_range[14]>                      1          1          -    Covered              
+            bin <taken,V_in_range[15]>                      5          1          -    Covered              
+ Covergroup instance SARADCCoverGroup_3                78.57%        100          -    Uncovered            
+    covered/total bins:                                    53         71          -                      
+    missing/total bins:                                    18         71          -                      
+    % Hit:                                             74.64%        100          -                      
+    Coverpoint cp_V_in                                100.00%        100          -    Covered              
+        covered/total bins:                                16         16          -                      
+        missing/total bins:                                 0         16          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin V_in_range[0]                                  16          1          -    Covered              
+        bin V_in_range[1]                                  13          1          -    Covered              
+        bin V_in_range[2]                                  17          1          -    Covered              
+        bin V_in_range[3]                                  13          1          -    Covered              
+        bin V_in_range[4]                                  12          1          -    Covered              
+        bin V_in_range[5]                                  13          1          -    Covered              
+        bin V_in_range[6]                                  14          1          -    Covered              
+        bin V_in_range[7]                                  19          1          -    Covered              
+        bin V_in_range[8]                                  11          1          -    Covered              
+        bin V_in_range[9]                                  20          1          -    Covered              
+        bin V_in_range[10]                                 25          1          -    Covered              
+        bin V_in_range[11]                                 19          1          -    Covered              
+        bin V_in_range[12]                                 15          1          -    Covered              
+        bin V_in_range[13]                                 16          1          -    Covered              
+        bin V_in_range[14]                                 14          1          -    Covered              
+        bin V_in_range[15]                                 14          1          -    Covered              
+    Coverpoint cp_preset                              100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin reset_active                                    6          1          -    Covered              
+        bin reset_inactive                                245          1          -    Covered              
+    Coverpoint cp_psample_rate                         50.00%        100          -    Uncovered            
+        covered/total bins:                                 2          4          -                      
+        missing/total bins:                                 2          4          -                      
+        % Hit:                                         50.00%        100          -                      
+        bin mod1                                            1          1          -    Covered              
+        bin mod2                                            0          1          -    ZERO                 
+        bin mod3                                            0          1          -    ZERO                 
+        bin mod4                                          250          1          -    Covered              
+    Coverpoint cp_pEOC                                100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin taken                                          13          1          -    Covered              
+    Coverpoint cp_pD_out                               81.25%        100          -    Uncovered            
+        covered/total bins:                                13         16          -                      
+        missing/total bins:                                 3         16          -                      
+        % Hit:                                         81.25%        100          -                      
+        bin D_out_range[0]                                  1          1          -    Covered              
+        bin D_out_range[1]                                  5          1          -    Covered              
+        bin D_out_range[2]                                  7          1          -    Covered              
+        bin D_out_range[3]                                  2          1          -    Covered              
+        bin D_out_range[4]                                  5          1          -    Covered              
+        bin D_out_range[5]                                  0          1          -    ZERO                 
+        bin D_out_range[6]                                  0          1          -    ZERO                 
+        bin D_out_range[7]                                  0          1          -    ZERO                 
+        bin D_out_range[8]                                197          1          -    Covered              
+        bin D_out_range[9]                                  5          1          -    Covered              
+        bin D_out_range[10]                                 7          1          -    Covered              
+        bin D_out_range[11]                                 4          1          -    Covered              
+        bin D_out_range[12]                                 9          1          -    Covered              
+        bin D_out_range[13]                                 4          1          -    Covered              
+        bin D_out_range[14]                                 3          1          -    Covered              
+        bin D_out_range[15]                                 2          1          -    Covered              
+    Cross cross_EOC_D_out                              56.25%        100          -    Uncovered            
+        covered/total bins:                                 9         16          -                      
+        missing/total bins:                                 7         16          -                      
+        % Hit:                                         56.25%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <taken,D_out_range[0]>                      1          1          -    Covered              
+            bin <taken,D_out_range[1]>                      2          1          -    Covered              
+            bin <taken,D_out_range[2]>                      2          1          -    Covered              
+            bin <taken,D_out_range[3]>                      0          1          -    ZERO                 
+            bin <taken,D_out_range[4]>                      0          1          -    ZERO                 
+            bin <taken,D_out_range[5]>                      0          1          -    ZERO                 
+            bin <taken,D_out_range[6]>                      0          1          -    ZERO                 
+            bin <taken,D_out_range[7]>                      0          1          -    ZERO                 
+            bin <taken,D_out_range[8]>                      1          1          -    Covered              
+            bin <taken,D_out_range[9]>                      2          1          -    Covered              
+            bin <taken,D_out_range[10]>                     1          1          -    Covered              
+            bin <taken,D_out_range[11]>                     1          1          -    Covered              
+            bin <taken,D_out_range[12]>                     0          1          -    ZERO                 
+            bin <taken,D_out_range[13]>                     2          1          -    Covered              
+            bin <taken,D_out_range[14]>                     0          1          -    ZERO                 
+            bin <taken,D_out_range[15]>                     1          1          -    Covered              
+    Cross cross_EOC_V_in                               62.50%        100          -    Uncovered            
+        covered/total bins:                                10         16          -                      
+        missing/total bins:                                 6         16          -                      
+        % Hit:                                         62.50%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <taken,V_in_range[0]>                       0          1          -    ZERO                 
+            bin <taken,V_in_range[1]>                       0          1          -    ZERO                 
+            bin <taken,V_in_range[2]>                       1          1          -    Covered              
+            bin <taken,V_in_range[3]>                       2          1          -    Covered              
+            bin <taken,V_in_range[4]>                       0          1          -    ZERO                 
+            bin <taken,V_in_range[5]>                       1          1          -    Covered              
+            bin <taken,V_in_range[6]>                       1          1          -    Covered              
+            bin <taken,V_in_range[7]>                       1          1          -    Covered              
+            bin <taken,V_in_range[8]>                       0          1          -    ZERO                 
+            bin <taken,V_in_range[9]>                       0          1          -    ZERO                 
+            bin <taken,V_in_range[10]>                      1          1          -    Covered              
+            bin <taken,V_in_range[11]>                      2          1          -    Covered              
+            bin <taken,V_in_range[12]>                      0          1          -    ZERO                 
+            bin <taken,V_in_range[13]>                      1          1          -    Covered              
+            bin <taken,V_in_range[14]>                      2          1          -    Covered              
+            bin <taken,V_in_range[15]>                      1          1          -    Covered              
+
+COVERGROUP COVERAGE:
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /cg_inst/SARADCCoverGroup                       100.00%        100          -    Covered              
+    covered/total bins:                                    71         71          -                      
+    missing/total bins:                                     0         71          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint cp_V_in                                100.00%        100          -    Covered              
+        covered/total bins:                                16         16          -                      
+        missing/total bins:                                 0         16          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin V_in_range[0]                                  58          1          -    Covered              
+        bin V_in_range[1]                                  66          1          -    Covered              
+        bin V_in_range[2]                                  59          1          -    Covered              
+        bin V_in_range[3]                                  72          1          -    Covered              
+        bin V_in_range[4]                                  53          1          -    Covered              
+        bin V_in_range[5]                                  61          1          -    Covered              
+        bin V_in_range[6]                                  73          1          -    Covered              
+        bin V_in_range[7]                                  66          1          -    Covered              
+        bin V_in_range[8]                                  60          1          -    Covered              
+        bin V_in_range[9]                                  62          1          -    Covered              
+        bin V_in_range[10]                                 66          1          -    Covered              
+        bin V_in_range[11]                                 63          1          -    Covered              
+        bin V_in_range[12]                                 62          1          -    Covered              
+        bin V_in_range[13]                                 64          1          -    Covered              
+        bin V_in_range[14]                                 58          1          -    Covered              
+        bin V_in_range[15]                                 61          1          -    Covered              
+    Coverpoint cp_preset                              100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin reset_active                                   32          1          -    Covered              
+        bin reset_inactive                                972          1          -    Covered              
+    Coverpoint cp_psample_rate                        100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin mod1                                          254          1          -    Covered              
+        bin mod2                                          250          1          -    Covered              
+        bin mod3                                          250          1          -    Covered              
+        bin mod4                                          250          1          -    Covered              
+    Coverpoint cp_pEOC                                100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin taken                                          99          1          -    Covered              
+    Coverpoint cp_pD_out                              100.00%        100          -    Covered              
+        covered/total bins:                                16         16          -                      
+        missing/total bins:                                 0         16          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin D_out_range[0]                                  6          1          -    Covered              
+        bin D_out_range[1]                                 23          1          -    Covered              
+        bin D_out_range[2]                                 33          1          -    Covered              
+        bin D_out_range[3]                                 13          1          -    Covered              
+        bin D_out_range[4]                                 64          1          -    Covered              
+        bin D_out_range[5]                                 23          1          -    Covered              
+        bin D_out_range[6]                                 38          1          -    Covered              
+        bin D_out_range[7]                                 20          1          -    Covered              
+        bin D_out_range[8]                                595          1          -    Covered              
+        bin D_out_range[9]                                 21          1          -    Covered              
+        bin D_out_range[10]                                31          1          -    Covered              
+        bin D_out_range[11]                                15          1          -    Covered              
+        bin D_out_range[12]                                56          1          -    Covered              
+        bin D_out_range[13]                                24          1          -    Covered              
+        bin D_out_range[14]                                27          1          -    Covered              
+        bin D_out_range[15]                                15          1          -    Covered              
+    Cross cross_EOC_D_out                             100.00%        100          -    Covered              
+        covered/total bins:                                16         16          -                      
+        missing/total bins:                                 0         16          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <taken,D_out_range[0]>                      5          1          -    Covered              
+            bin <taken,D_out_range[1]>                      9          1          -    Covered              
+            bin <taken,D_out_range[2]>                      6          1          -    Covered              
+            bin <taken,D_out_range[3]>                      3          1          -    Covered              
+            bin <taken,D_out_range[4]>                      6          1          -    Covered              
+            bin <taken,D_out_range[5]>                      8          1          -    Covered              
+            bin <taken,D_out_range[6]>                      8          1          -    Covered              
+            bin <taken,D_out_range[7]>                      6          1          -    Covered              
+            bin <taken,D_out_range[8]>                      7          1          -    Covered              
+            bin <taken,D_out_range[9]>                      7          1          -    Covered              
+            bin <taken,D_out_range[10]>                     6          1          -    Covered              
+            bin <taken,D_out_range[11]>                     4          1          -    Covered              
+            bin <taken,D_out_range[12]>                     6          1          -    Covered              
+            bin <taken,D_out_range[13]>                     9          1          -    Covered              
+            bin <taken,D_out_range[14]>                     3          1          -    Covered              
+            bin <taken,D_out_range[15]>                     6          1          -    Covered              
+    Cross cross_EOC_V_in                              100.00%        100          -    Covered              
+        covered/total bins:                                16         16          -                      
+        missing/total bins:                                 0         16          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <taken,V_in_range[0]>                       3          1          -    Covered              
+            bin <taken,V_in_range[1]>                       3          1          -    Covered              
+            bin <taken,V_in_range[2]>                      10          1          -    Covered              
+            bin <taken,V_in_range[3]>                       9          1          -    Covered              
+            bin <taken,V_in_range[4]>                       1          1          -    Covered              
+            bin <taken,V_in_range[5]>                       5          1          -    Covered              
+            bin <taken,V_in_range[6]>                       5          1          -    Covered              
+            bin <taken,V_in_range[7]>                       8          1          -    Covered              
+            bin <taken,V_in_range[8]>                       5          1          -    Covered              
+            bin <taken,V_in_range[9]>                       7          1          -    Covered              
+            bin <taken,V_in_range[10]>                      4          1          -    Covered              
+            bin <taken,V_in_range[11]>                      8          1          -    Covered              
+            bin <taken,V_in_range[12]>                      6          1          -    Covered              
+            bin <taken,V_in_range[13]>                      9          1          -    Covered              
+            bin <taken,V_in_range[14]>                      6          1          -    Covered              
+            bin <taken,V_in_range[15]>                     10          1          -    Covered              
+ Covergroup instance SARADCCoverGroup                  87.50%        100          -    Uncovered            
+    covered/total bins:                                    66         71          -                      
+    missing/total bins:                                     5         71          -                      
+    % Hit:                                             92.95%        100          -                      
+    Coverpoint cp_V_in                                100.00%        100          -    Covered              
+        covered/total bins:                                16         16          -                      
+        missing/total bins:                                 0         16          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin V_in_range[0]                                  11          1          -    Covered              
+        bin V_in_range[1]                                  21          1          -    Covered              
+        bin V_in_range[2]                                  18          1          -    Covered              
+        bin V_in_range[3]                                  21          1          -    Covered              
+        bin V_in_range[4]                                  14          1          -    Covered              
+        bin V_in_range[5]                                  17          1          -    Covered              
+        bin V_in_range[6]                                  21          1          -    Covered              
+        bin V_in_range[7]                                  16          1          -    Covered              
+        bin V_in_range[8]                                  18          1          -    Covered              
+        bin V_in_range[9]                                  20          1          -    Covered              
+        bin V_in_range[10]                                 11          1          -    Covered              
+        bin V_in_range[11]                                 16          1          -    Covered              
+        bin V_in_range[12]                                 15          1          -    Covered              
+        bin V_in_range[13]                                  8          1          -    Covered              
+        bin V_in_range[14]                                 11          1          -    Covered              
+        bin V_in_range[15]                                 13          1          -    Covered              
+    Coverpoint cp_preset                              100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin reset_active                                    5          1          -    Covered              
+        bin reset_inactive                                246          1          -    Covered              
+    Coverpoint cp_psample_rate                         25.00%        100          -    Uncovered            
+        covered/total bins:                                 1          4          -                      
+        missing/total bins:                                 3          4          -                      
+        % Hit:                                         25.00%        100          -                      
+        bin mod1                                          251          1          -    Covered              
+        bin mod2                                            0          1          -    ZERO                 
+        bin mod3                                            0          1          -    ZERO                 
+        bin mod4                                            0          1          -    ZERO                 
+    Coverpoint cp_pEOC                                100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin taken                                          46          1          -    Covered              
+    Coverpoint cp_pD_out                              100.00%        100          -    Covered              
+        covered/total bins:                                16         16          -                      
+        missing/total bins:                                 0         16          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin D_out_range[0]                                  3          1          -    Covered              
+        bin D_out_range[1]                                 12          1          -    Covered              
+        bin D_out_range[2]                                 15          1          -    Covered              
+        bin D_out_range[3]                                  6          1          -    Covered              
+        bin D_out_range[4]                                 28          1          -    Covered              
+        bin D_out_range[5]                                 12          1          -    Covered              
+        bin D_out_range[6]                                 14          1          -    Covered              
+        bin D_out_range[7]                                  8          1          -    Covered              
+        bin D_out_range[8]                                 64          1          -    Covered              
+        bin D_out_range[9]                                 11          1          -    Covered              
+        bin D_out_range[10]                                14          1          -    Covered              
+        bin D_out_range[11]                                 8          1          -    Covered              
+        bin D_out_range[12]                                26          1          -    Covered              
+        bin D_out_range[13]                                 9          1          -    Covered              
+        bin D_out_range[14]                                12          1          -    Covered              
+        bin D_out_range[15]                                 9          1          -    Covered              
+    Cross cross_EOC_D_out                             100.00%        100          -    Covered              
+        covered/total bins:                                16         16          -                      
+        missing/total bins:                                 0         16          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <taken,D_out_range[0]>                      2          1          -    Covered              
+            bin <taken,D_out_range[1]>                      5          1          -    Covered              
+            bin <taken,D_out_range[2]>                      3          1          -    Covered              
+            bin <taken,D_out_range[3]>                      1          1          -    Covered              
+            bin <taken,D_out_range[4]>                      2          1          -    Covered              
+            bin <taken,D_out_range[5]>                      5          1          -    Covered              
+            bin <taken,D_out_range[6]>                      2          1          -    Covered              
+            bin <taken,D_out_range[7]>                      3          1          -    Covered              
+            bin <taken,D_out_range[8]>                      3          1          -    Covered              
+            bin <taken,D_out_range[9]>                      4          1          -    Covered              
+            bin <taken,D_out_range[10]>                     2          1          -    Covered              
+            bin <taken,D_out_range[11]>                     3          1          -    Covered              
+            bin <taken,D_out_range[12]>                     3          1          -    Covered              
+            bin <taken,D_out_range[13]>                     3          1          -    Covered              
+            bin <taken,D_out_range[14]>                     1          1          -    Covered              
+            bin <taken,D_out_range[15]>                     4          1          -    Covered              
+    Cross cross_EOC_V_in                               87.50%        100          -    Uncovered            
+        covered/total bins:                                14         16          -                      
+        missing/total bins:                                 2         16          -                      
+        % Hit:                                         87.50%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <taken,V_in_range[0]>                       2          1          -    Covered              
+            bin <taken,V_in_range[1]>                       3          1          -    Covered              
+            bin <taken,V_in_range[2]>                       6          1          -    Covered              
+            bin <taken,V_in_range[3]>                       5          1          -    Covered              
+            bin <taken,V_in_range[4]>                       0          1          -    ZERO                 
+            bin <taken,V_in_range[5]>                       1          1          -    Covered              
+            bin <taken,V_in_range[6]>                       2          1          -    Covered              
+            bin <taken,V_in_range[7]>                       5          1          -    Covered              
+            bin <taken,V_in_range[8]>                       2          1          -    Covered              
+            bin <taken,V_in_range[9]>                       5          1          -    Covered              
+            bin <taken,V_in_range[10]>                      2          1          -    Covered              
+            bin <taken,V_in_range[11]>                      3          1          -    Covered              
+            bin <taken,V_in_range[12]>                      3          1          -    Covered              
+            bin <taken,V_in_range[13]>                      4          1          -    Covered              
+            bin <taken,V_in_range[14]>                      0          1          -    ZERO                 
+            bin <taken,V_in_range[15]>                      3          1          -    Covered              
+ Covergroup instance SARADCCoverGroup_1                84.82%        100          -    Uncovered            
+    covered/total bins:                                    60         71          -                      
+    missing/total bins:                                    11         71          -                      
+    % Hit:                                             84.50%        100          -                      
+    Coverpoint cp_V_in                                100.00%        100          -    Covered              
+        covered/total bins:                                16         16          -                      
+        missing/total bins:                                 0         16          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin V_in_range[0]                                  11          1          -    Covered              
+        bin V_in_range[1]                                  14          1          -    Covered              
+        bin V_in_range[2]                                   6          1          -    Covered              
+        bin V_in_range[3]                                  19          1          -    Covered              
+        bin V_in_range[4]                                  10          1          -    Covered              
+        bin V_in_range[5]                                  22          1          -    Covered              
+        bin V_in_range[6]                                  19          1          -    Covered              
+        bin V_in_range[7]                                  13          1          -    Covered              
+        bin V_in_range[8]                                  14          1          -    Covered              
+        bin V_in_range[9]                                  15          1          -    Covered              
+        bin V_in_range[10]                                 21          1          -    Covered              
+        bin V_in_range[11]                                 16          1          -    Covered              
+        bin V_in_range[12]                                 17          1          -    Covered              
+        bin V_in_range[13]                                 25          1          -    Covered              
+        bin V_in_range[14]                                 16          1          -    Covered              
+        bin V_in_range[15]                                 13          1          -    Covered              
+    Coverpoint cp_preset                              100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin reset_active                                    7          1          -    Covered              
+        bin reset_inactive                                244          1          -    Covered              
+    Coverpoint cp_psample_rate                         50.00%        100          -    Uncovered            
+        covered/total bins:                                 2          4          -                      
+        missing/total bins:                                 2          4          -                      
+        % Hit:                                         50.00%        100          -                      
+        bin mod1                                            1          1          -    Covered              
+        bin mod2                                          250          1          -    Covered              
+        bin mod3                                            0          1          -    ZERO                 
+        bin mod4                                            0          1          -    ZERO                 
+    Coverpoint cp_pEOC                                100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin taken                                          24          1          -    Covered              
+    Coverpoint cp_pD_out                               93.75%        100          -    Uncovered            
+        covered/total bins:                                15         16          -                      
+        missing/total bins:                                 1         16          -                      
+        % Hit:                                         93.75%        100          -                      
+        bin D_out_range[0]                                  0          1          -    ZERO                 
+        bin D_out_range[1]                                  4          1          -    Covered              
+        bin D_out_range[2]                                  5          1          -    Covered              
+        bin D_out_range[3]                                  2          1          -    Covered              
+        bin D_out_range[4]                                 17          1          -    Covered              
+        bin D_out_range[5]                                 10          1          -    Covered              
+        bin D_out_range[6]                                 12          1          -    Covered              
+        bin D_out_range[7]                                  4          1          -    Covered              
+        bin D_out_range[8]                                151          1          -    Covered              
+        bin D_out_range[9]                                  4          1          -    Covered              
+        bin D_out_range[10]                                 9          1          -    Covered              
+        bin D_out_range[11]                                 3          1          -    Covered              
+        bin D_out_range[12]                                13          1          -    Covered              
+        bin D_out_range[13]                                 7          1          -    Covered              
+        bin D_out_range[14]                                 8          1          -    Covered              
+        bin D_out_range[15]                                 2          1          -    Covered              
+    Cross cross_EOC_D_out                              75.00%        100          -    Uncovered            
+        covered/total bins:                                12         16          -                      
+        missing/total bins:                                 4         16          -                      
+        % Hit:                                         75.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <taken,D_out_range[0]>                      0          1          -    ZERO                 
+            bin <taken,D_out_range[1]>                      2          1          -    Covered              
+            bin <taken,D_out_range[2]>                      0          1          -    ZERO                 
+            bin <taken,D_out_range[3]>                      1          1          -    Covered              
+            bin <taken,D_out_range[4]>                      3          1          -    Covered              
+            bin <taken,D_out_range[5]>                      3          1          -    Covered              
+            bin <taken,D_out_range[6]>                      2          1          -    Covered              
+            bin <taken,D_out_range[7]>                      1          1          -    Covered              
+            bin <taken,D_out_range[8]>                      2          1          -    Covered              
+            bin <taken,D_out_range[9]>                      1          1          -    Covered              
+            bin <taken,D_out_range[10]>                     3          1          -    Covered              
+            bin <taken,D_out_range[11]>                     0          1          -    ZERO                 
+            bin <taken,D_out_range[12]>                     1          1          -    Covered              
+            bin <taken,D_out_range[13]>                     3          1          -    Covered              
+            bin <taken,D_out_range[14]>                     2          1          -    Covered              
+            bin <taken,D_out_range[15]>                     0          1          -    ZERO                 
+    Cross cross_EOC_V_in                               75.00%        100          -    Uncovered            
+        covered/total bins:                                12         16          -                      
+        missing/total bins:                                 4         16          -                      
+        % Hit:                                         75.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <taken,V_in_range[0]>                       0          1          -    ZERO                 
+            bin <taken,V_in_range[1]>                       0          1          -    ZERO                 
+            bin <taken,V_in_range[2]>                       1          1          -    Covered              
+            bin <taken,V_in_range[3]>                       2          1          -    Covered              
+            bin <taken,V_in_range[4]>                       0          1          -    ZERO                 
+            bin <taken,V_in_range[5]>                       3          1          -    Covered              
+            bin <taken,V_in_range[6]>                       1          1          -    Covered              
+            bin <taken,V_in_range[7]>                       1          1          -    Covered              
+            bin <taken,V_in_range[8]>                       3          1          -    Covered              
+            bin <taken,V_in_range[9]>                       2          1          -    Covered              
+            bin <taken,V_in_range[10]>                      0          1          -    ZERO                 
+            bin <taken,V_in_range[11]>                      1          1          -    Covered              
+            bin <taken,V_in_range[12]>                      3          1          -    Covered              
+            bin <taken,V_in_range[13]>                      3          1          -    Covered              
+            bin <taken,V_in_range[14]>                      3          1          -    Covered              
+            bin <taken,V_in_range[15]>                      1          1          -    Covered              
+ Covergroup instance SARADCCoverGroup_2                81.25%        100          -    Uncovered            
+    covered/total bins:                                    56         71          -                      
+    missing/total bins:                                    15         71          -                      
+    % Hit:                                             78.87%        100          -                      
+    Coverpoint cp_V_in                                100.00%        100          -    Covered              
+        covered/total bins:                                16         16          -                      
+        missing/total bins:                                 0         16          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin V_in_range[0]                                  20          1          -    Covered              
+        bin V_in_range[1]                                  18          1          -    Covered              
+        bin V_in_range[2]                                  18          1          -    Covered              
+        bin V_in_range[3]                                  19          1          -    Covered              
+        bin V_in_range[4]                                  17          1          -    Covered              
+        bin V_in_range[5]                                   9          1          -    Covered              
+        bin V_in_range[6]                                  19          1          -    Covered              
+        bin V_in_range[7]                                  18          1          -    Covered              
+        bin V_in_range[8]                                  17          1          -    Covered              
+        bin V_in_range[9]                                   7          1          -    Covered              
+        bin V_in_range[10]                                  9          1          -    Covered              
+        bin V_in_range[11]                                 12          1          -    Covered              
+        bin V_in_range[12]                                 15          1          -    Covered              
+        bin V_in_range[13]                                 15          1          -    Covered              
+        bin V_in_range[14]                                 17          1          -    Covered              
+        bin V_in_range[15]                                 21          1          -    Covered              
+    Coverpoint cp_preset                              100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin reset_active                                   14          1          -    Covered              
+        bin reset_inactive                                237          1          -    Covered              
+    Coverpoint cp_psample_rate                         50.00%        100          -    Uncovered            
+        covered/total bins:                                 2          4          -                      
+        missing/total bins:                                 2          4          -                      
+        % Hit:                                         50.00%        100          -                      
+        bin mod1                                            1          1          -    Covered              
+        bin mod2                                            0          1          -    ZERO                 
+        bin mod3                                          250          1          -    Covered              
+        bin mod4                                            0          1          -    ZERO                 
+    Coverpoint cp_pEOC                                100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin taken                                          16          1          -    Covered              
+    Coverpoint cp_pD_out                               93.75%        100          -    Uncovered            
+        covered/total bins:                                15         16          -                      
+        missing/total bins:                                 1         16          -                      
+        % Hit:                                         93.75%        100          -                      
+        bin D_out_range[0]                                  2          1          -    Covered              
+        bin D_out_range[1]                                  2          1          -    Covered              
+        bin D_out_range[2]                                  6          1          -    Covered              
+        bin D_out_range[3]                                  3          1          -    Covered              
+        bin D_out_range[4]                                 14          1          -    Covered              
+        bin D_out_range[5]                                  1          1          -    Covered              
+        bin D_out_range[6]                                 12          1          -    Covered              
+        bin D_out_range[7]                                  8          1          -    Covered              
+        bin D_out_range[8]                                183          1          -    Covered              
+        bin D_out_range[9]                                  1          1          -    Covered              
+        bin D_out_range[10]                                 1          1          -    Covered              
+        bin D_out_range[11]                                 0          1          -    ZERO                 
+        bin D_out_range[12]                                 8          1          -    Covered              
+        bin D_out_range[13]                                 4          1          -    Covered              
+        bin D_out_range[14]                                 4          1          -    Covered              
+        bin D_out_range[15]                                 2          1          -    Covered              
+    Cross cross_EOC_D_out                              62.50%        100          -    Uncovered            
+        covered/total bins:                                10         16          -                      
+        missing/total bins:                                 6         16          -                      
+        % Hit:                                         62.50%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <taken,D_out_range[0]>                      2          1          -    Covered              
+            bin <taken,D_out_range[1]>                      0          1          -    ZERO                 
+            bin <taken,D_out_range[2]>                      1          1          -    Covered              
+            bin <taken,D_out_range[3]>                      1          1          -    Covered              
+            bin <taken,D_out_range[4]>                      1          1          -    Covered              
+            bin <taken,D_out_range[5]>                      0          1          -    ZERO                 
+            bin <taken,D_out_range[6]>                      4          1          -    Covered              
+            bin <taken,D_out_range[7]>                      2          1          -    Covered              
+            bin <taken,D_out_range[8]>                      1          1          -    Covered              
+            bin <taken,D_out_range[9]>                      0          1          -    ZERO                 
+            bin <taken,D_out_range[10]>                     0          1          -    ZERO                 
+            bin <taken,D_out_range[11]>                     0          1          -    ZERO                 
+            bin <taken,D_out_range[12]>                     2          1          -    Covered              
+            bin <taken,D_out_range[13]>                     1          1          -    Covered              
+            bin <taken,D_out_range[14]>                     0          1          -    ZERO                 
+            bin <taken,D_out_range[15]>                     1          1          -    Covered              
+    Cross cross_EOC_V_in                               62.50%        100          -    Uncovered            
+        covered/total bins:                                10         16          -                      
+        missing/total bins:                                 6         16          -                      
+        % Hit:                                         62.50%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <taken,V_in_range[0]>                       1          1          -    Covered              
+            bin <taken,V_in_range[1]>                       0          1          -    ZERO                 
+            bin <taken,V_in_range[2]>                       2          1          -    Covered              
+            bin <taken,V_in_range[3]>                       0          1          -    ZERO                 
+            bin <taken,V_in_range[4]>                       1          1          -    Covered              
+            bin <taken,V_in_range[5]>                       0          1          -    ZERO                 
+            bin <taken,V_in_range[6]>                       1          1          -    Covered              
+            bin <taken,V_in_range[7]>                       1          1          -    Covered              
+            bin <taken,V_in_range[8]>                       0          1          -    ZERO                 
+            bin <taken,V_in_range[9]>                       0          1          -    ZERO                 
+            bin <taken,V_in_range[10]>                      1          1          -    Covered              
+            bin <taken,V_in_range[11]>                      2          1          -    Covered              
+            bin <taken,V_in_range[12]>                      0          1          -    ZERO                 
+            bin <taken,V_in_range[13]>                      1          1          -    Covered              
+            bin <taken,V_in_range[14]>                      1          1          -    Covered              
+            bin <taken,V_in_range[15]>                      5          1          -    Covered              
+ Covergroup instance SARADCCoverGroup_3                78.57%        100          -    Uncovered            
+    covered/total bins:                                    53         71          -                      
+    missing/total bins:                                    18         71          -                      
+    % Hit:                                             74.64%        100          -                      
+    Coverpoint cp_V_in                                100.00%        100          -    Covered              
+        covered/total bins:                                16         16          -                      
+        missing/total bins:                                 0         16          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin V_in_range[0]                                  16          1          -    Covered              
+        bin V_in_range[1]                                  13          1          -    Covered              
+        bin V_in_range[2]                                  17          1          -    Covered              
+        bin V_in_range[3]                                  13          1          -    Covered              
+        bin V_in_range[4]                                  12          1          -    Covered              
+        bin V_in_range[5]                                  13          1          -    Covered              
+        bin V_in_range[6]                                  14          1          -    Covered              
+        bin V_in_range[7]                                  19          1          -    Covered              
+        bin V_in_range[8]                                  11          1          -    Covered              
+        bin V_in_range[9]                                  20          1          -    Covered              
+        bin V_in_range[10]                                 25          1          -    Covered              
+        bin V_in_range[11]                                 19          1          -    Covered              
+        bin V_in_range[12]                                 15          1          -    Covered              
+        bin V_in_range[13]                                 16          1          -    Covered              
+        bin V_in_range[14]                                 14          1          -    Covered              
+        bin V_in_range[15]                                 14          1          -    Covered              
+    Coverpoint cp_preset                              100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin reset_active                                    6          1          -    Covered              
+        bin reset_inactive                                245          1          -    Covered              
+    Coverpoint cp_psample_rate                         50.00%        100          -    Uncovered            
+        covered/total bins:                                 2          4          -                      
+        missing/total bins:                                 2          4          -                      
+        % Hit:                                         50.00%        100          -                      
+        bin mod1                                            1          1          -    Covered              
+        bin mod2                                            0          1          -    ZERO                 
+        bin mod3                                            0          1          -    ZERO                 
+        bin mod4                                          250          1          -    Covered              
+    Coverpoint cp_pEOC                                100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin taken                                          13          1          -    Covered              
+    Coverpoint cp_pD_out                               81.25%        100          -    Uncovered            
+        covered/total bins:                                13         16          -                      
+        missing/total bins:                                 3         16          -                      
+        % Hit:                                         81.25%        100          -                      
+        bin D_out_range[0]                                  1          1          -    Covered              
+        bin D_out_range[1]                                  5          1          -    Covered              
+        bin D_out_range[2]                                  7          1          -    Covered              
+        bin D_out_range[3]                                  2          1          -    Covered              
+        bin D_out_range[4]                                  5          1          -    Covered              
+        bin D_out_range[5]                                  0          1          -    ZERO                 
+        bin D_out_range[6]                                  0          1          -    ZERO                 
+        bin D_out_range[7]                                  0          1          -    ZERO                 
+        bin D_out_range[8]                                197          1          -    Covered              
+        bin D_out_range[9]                                  5          1          -    Covered              
+        bin D_out_range[10]                                 7          1          -    Covered              
+        bin D_out_range[11]                                 4          1          -    Covered              
+        bin D_out_range[12]                                 9          1          -    Covered              
+        bin D_out_range[13]                                 4          1          -    Covered              
+        bin D_out_range[14]                                 3          1          -    Covered              
+        bin D_out_range[15]                                 2          1          -    Covered              
+    Cross cross_EOC_D_out                              56.25%        100          -    Uncovered            
+        covered/total bins:                                 9         16          -                      
+        missing/total bins:                                 7         16          -                      
+        % Hit:                                         56.25%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <taken,D_out_range[0]>                      1          1          -    Covered              
+            bin <taken,D_out_range[1]>                      2          1          -    Covered              
+            bin <taken,D_out_range[2]>                      2          1          -    Covered              
+            bin <taken,D_out_range[3]>                      0          1          -    ZERO                 
+            bin <taken,D_out_range[4]>                      0          1          -    ZERO                 
+            bin <taken,D_out_range[5]>                      0          1          -    ZERO                 
+            bin <taken,D_out_range[6]>                      0          1          -    ZERO                 
+            bin <taken,D_out_range[7]>                      0          1          -    ZERO                 
+            bin <taken,D_out_range[8]>                      1          1          -    Covered              
+            bin <taken,D_out_range[9]>                      2          1          -    Covered              
+            bin <taken,D_out_range[10]>                     1          1          -    Covered              
+            bin <taken,D_out_range[11]>                     1          1          -    Covered              
+            bin <taken,D_out_range[12]>                     0          1          -    ZERO                 
+            bin <taken,D_out_range[13]>                     2          1          -    Covered              
+            bin <taken,D_out_range[14]>                     0          1          -    ZERO                 
+            bin <taken,D_out_range[15]>                     1          1          -    Covered              
+    Cross cross_EOC_V_in                               62.50%        100          -    Uncovered            
+        covered/total bins:                                10         16          -                      
+        missing/total bins:                                 6         16          -                      
+        % Hit:                                         62.50%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <taken,V_in_range[0]>                       0          1          -    ZERO                 
+            bin <taken,V_in_range[1]>                       0          1          -    ZERO                 
+            bin <taken,V_in_range[2]>                       1          1          -    Covered              
+            bin <taken,V_in_range[3]>                       2          1          -    Covered              
+            bin <taken,V_in_range[4]>                       0          1          -    ZERO                 
+            bin <taken,V_in_range[5]>                       1          1          -    Covered              
+            bin <taken,V_in_range[6]>                       1          1          -    Covered              
+            bin <taken,V_in_range[7]>                       1          1          -    Covered              
+            bin <taken,V_in_range[8]>                       0          1          -    ZERO                 
+            bin <taken,V_in_range[9]>                       0          1          -    ZERO                 
+            bin <taken,V_in_range[10]>                      1          1          -    Covered              
+            bin <taken,V_in_range[11]>                      2          1          -    Covered              
+            bin <taken,V_in_range[12]>                      0          1          -    ZERO                 
+            bin <taken,V_in_range[13]>                      1          1          -    Covered              
+            bin <taken,V_in_range[14]>                      2          1          -    Covered              
+            bin <taken,V_in_range[15]>                      1          1          -    Covered              
+
+TOTAL COVERGROUP COVERAGE: 100.00%  COVERGROUP TYPES: 1
+
+Total Coverage By Instance (filtered view): 100.00%
+

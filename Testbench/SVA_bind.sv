@@ -1,0 +1,1 @@
+bind SAR_ADC_Wrapper SAR_ADC_SVA SAR_ADC_SVA_inst (.*);

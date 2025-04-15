@@ -1,0 +1,1431 @@
+<UCIS xmlns:ucis="http://www.w3.org/2001/XMLSchema-instance" writtenBy="salby" writtenTime="2025-04-15T00:00:00" ucisVersion="1.0">
+  <sourceFiles fileName="__null__file__" id="1"/>
+  <sourceFiles fileName="&lt;unknown&gt;" id="2"/>
+  <sourceFiles fileName="/home/salby/Documents/test/UVM_ALSU/PyUVM-Based_Verification_Environment_for_SAR_ADC_MultiTest/Testbench/SAR_ADC_coverage.py" id="3"/>
+  <historyNodes historyNodeId="0" logicalName="logicalName" physicalName="foo.ucis" kind="HistoryNodeKind.TEST" testStatus="true" simtime="0.0" timeunit="ns" runCwd="." cpuTime="0.0" seed="0" cmd="" args="" compulsory="0" date="2025-04-15T03:30:17" userName="user" cost="0.0" toolCategory="UCIS:simulator" ucisVersion="1.0" vendorId="unknown" vendorTool="unknown" vendorToolVersion="unknown"/>
+  <instanceCoverages name="cg_inst" key="0">
+    <id file="1" line="1" inlineCount="1"/>
+    <covergroupCoverage>
+      <cgInstance name="SARADCCoverGroup" key="0">
+        <options/>
+        <cgId cgName="SARADCCoverGroup" moduleName="SARADCCoverGroup">
+          <cginstSourceId file="1" line="1" inlineCount="1"/>
+          <cgSourceId file="1" line="1" inlineCount="1"/>
+        </cgId>
+        <coverpoint name="cp_V_in" key="0">
+          <options/>
+          <coverpointBin name="V_in_range[0]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="11"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[1]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="21"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[2]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="18"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[3]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="21"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[4]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="14"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[5]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="17"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[6]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="21"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[7]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="16"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[8]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="18"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[9]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="20"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[10]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="11"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[11]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="16"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[12]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="15"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[13]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="8"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[14]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="11"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[15]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="13"/>
+            </range>
+          </coverpointBin>
+        </coverpoint>
+        <coverpoint name="cp_preset" key="0">
+          <options/>
+          <coverpointBin name="reset_active" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="5"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="reset_inactive" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="246"/>
+            </range>
+          </coverpointBin>
+        </coverpoint>
+        <coverpoint name="cp_psample_rate" key="0">
+          <options/>
+          <coverpointBin name="mod1" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="251"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="mod2" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="mod3" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="mod4" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+        </coverpoint>
+        <coverpoint name="cp_pEOC" key="0">
+          <options/>
+          <coverpointBin name="taken" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="46"/>
+            </range>
+          </coverpointBin>
+        </coverpoint>
+        <coverpoint name="cp_pD_out" key="0">
+          <options/>
+          <coverpointBin name="D_out_range[0]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="3"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[1]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="12"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[2]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="15"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[3]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="6"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[4]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="28"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[5]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="12"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[6]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="14"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[7]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="8"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[8]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="64"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[9]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="11"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[10]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="14"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[11]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="8"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[12]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="26"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[13]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="9"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[14]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="12"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[15]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="9"/>
+            </range>
+          </coverpointBin>
+        </coverpoint>
+        <cross name="cross_EOC_D_out" key="0">
+          <options/>
+          <crossExpr>cp_pEOC</crossExpr>
+          <crossExpr>cp_pD_out</crossExpr>
+          <crossBin name="&lt;taken,D_out_range[0]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="2"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[1]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="5"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[2]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="3"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[3]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="1"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[4]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="2"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[5]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="5"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[6]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="2"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[7]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="3"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[8]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="3"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[9]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="4"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[10]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="2"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[11]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="3"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[12]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="3"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[13]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="3"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[14]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="1"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[15]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="4"/>
+          </crossBin>
+        </cross>
+        <cross name="cross_EOC_V_in" key="0">
+          <options/>
+          <crossExpr>cp_pEOC</crossExpr>
+          <crossExpr>cp_V_in</crossExpr>
+          <crossBin name="&lt;taken,V_in_range[0]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="2"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[1]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="3"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[2]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="6"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[3]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="5"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[4]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="0"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[5]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="1"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[6]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="2"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[7]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="5"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[8]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="2"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[9]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="5"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[10]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="2"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[11]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="3"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[12]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="3"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[13]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="4"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[14]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="0"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[15]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="3"/>
+          </crossBin>
+        </cross>
+      </cgInstance>
+      <cgInstance name="SARADCCoverGroup_1" key="0">
+        <options/>
+        <cgId cgName="SARADCCoverGroup" moduleName="SARADCCoverGroup">
+          <cginstSourceId file="1" line="1" inlineCount="1"/>
+          <cgSourceId file="1" line="1" inlineCount="1"/>
+        </cgId>
+        <coverpoint name="cp_V_in" key="0">
+          <options/>
+          <coverpointBin name="V_in_range[0]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="11"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[1]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="14"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[2]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="6"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[3]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="19"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[4]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="10"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[5]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="22"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[6]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="19"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[7]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="13"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[8]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="14"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[9]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="15"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[10]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="21"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[11]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="16"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[12]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="17"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[13]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="25"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[14]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="16"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[15]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="13"/>
+            </range>
+          </coverpointBin>
+        </coverpoint>
+        <coverpoint name="cp_preset" key="0">
+          <options/>
+          <coverpointBin name="reset_active" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="7"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="reset_inactive" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="244"/>
+            </range>
+          </coverpointBin>
+        </coverpoint>
+        <coverpoint name="cp_psample_rate" key="0">
+          <options/>
+          <coverpointBin name="mod1" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="mod2" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="250"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="mod3" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="mod4" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+        </coverpoint>
+        <coverpoint name="cp_pEOC" key="0">
+          <options/>
+          <coverpointBin name="taken" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="24"/>
+            </range>
+          </coverpointBin>
+        </coverpoint>
+        <coverpoint name="cp_pD_out" key="0">
+          <options/>
+          <coverpointBin name="D_out_range[0]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[1]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="4"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[2]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="5"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[3]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="2"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[4]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="17"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[5]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="10"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[6]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="12"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[7]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="4"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[8]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="151"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[9]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="4"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[10]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="9"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[11]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="3"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[12]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="13"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[13]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="7"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[14]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="8"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[15]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="2"/>
+            </range>
+          </coverpointBin>
+        </coverpoint>
+        <cross name="cross_EOC_D_out" key="0">
+          <options/>
+          <crossExpr>cp_pEOC</crossExpr>
+          <crossExpr>cp_pD_out</crossExpr>
+          <crossBin name="&lt;taken,D_out_range[0]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="0"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[1]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="2"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[2]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="0"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[3]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="1"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[4]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="3"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[5]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="3"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[6]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="2"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[7]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="1"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[8]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="2"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[9]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="1"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[10]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="3"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[11]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="0"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[12]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="1"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[13]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="3"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[14]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="2"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[15]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="0"/>
+          </crossBin>
+        </cross>
+        <cross name="cross_EOC_V_in" key="0">
+          <options/>
+          <crossExpr>cp_pEOC</crossExpr>
+          <crossExpr>cp_V_in</crossExpr>
+          <crossBin name="&lt;taken,V_in_range[0]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="0"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[1]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="0"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[2]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="1"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[3]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="2"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[4]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="0"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[5]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="3"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[6]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="1"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[7]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="1"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[8]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="3"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[9]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="2"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[10]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="0"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[11]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="1"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[12]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="3"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[13]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="3"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[14]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="3"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[15]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="1"/>
+          </crossBin>
+        </cross>
+      </cgInstance>
+      <cgInstance name="SARADCCoverGroup_2" key="0">
+        <options/>
+        <cgId cgName="SARADCCoverGroup" moduleName="SARADCCoverGroup">
+          <cginstSourceId file="1" line="1" inlineCount="1"/>
+          <cgSourceId file="1" line="1" inlineCount="1"/>
+        </cgId>
+        <coverpoint name="cp_V_in" key="0">
+          <options/>
+          <coverpointBin name="V_in_range[0]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="20"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[1]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="18"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[2]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="18"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[3]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="19"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[4]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="17"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[5]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="9"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[6]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="19"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[7]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="18"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[8]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="17"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[9]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="7"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[10]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="9"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[11]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="12"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[12]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="15"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[13]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="15"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[14]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="17"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[15]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="21"/>
+            </range>
+          </coverpointBin>
+        </coverpoint>
+        <coverpoint name="cp_preset" key="0">
+          <options/>
+          <coverpointBin name="reset_active" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="14"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="reset_inactive" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="237"/>
+            </range>
+          </coverpointBin>
+        </coverpoint>
+        <coverpoint name="cp_psample_rate" key="0">
+          <options/>
+          <coverpointBin name="mod1" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="mod2" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="mod3" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="250"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="mod4" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+        </coverpoint>
+        <coverpoint name="cp_pEOC" key="0">
+          <options/>
+          <coverpointBin name="taken" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="16"/>
+            </range>
+          </coverpointBin>
+        </coverpoint>
+        <coverpoint name="cp_pD_out" key="0">
+          <options/>
+          <coverpointBin name="D_out_range[0]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="2"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[1]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="2"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[2]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="6"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[3]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="3"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[4]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="14"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[5]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[6]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="12"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[7]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="8"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[8]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="183"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[9]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[10]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[11]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[12]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="8"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[13]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="4"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[14]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="4"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[15]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="2"/>
+            </range>
+          </coverpointBin>
+        </coverpoint>
+        <cross name="cross_EOC_D_out" key="0">
+          <options/>
+          <crossExpr>cp_pEOC</crossExpr>
+          <crossExpr>cp_pD_out</crossExpr>
+          <crossBin name="&lt;taken,D_out_range[0]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="2"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[1]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="0"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[2]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="1"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[3]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="1"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[4]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="1"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[5]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="0"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[6]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="4"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[7]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="2"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[8]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="1"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[9]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="0"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[10]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="0"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[11]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="0"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[12]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="2"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[13]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="1"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[14]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="0"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[15]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="1"/>
+          </crossBin>
+        </cross>
+        <cross name="cross_EOC_V_in" key="0">
+          <options/>
+          <crossExpr>cp_pEOC</crossExpr>
+          <crossExpr>cp_V_in</crossExpr>
+          <crossBin name="&lt;taken,V_in_range[0]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="1"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[1]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="0"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[2]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="2"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[3]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="0"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[4]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="1"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[5]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="0"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[6]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="1"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[7]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="1"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[8]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="0"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[9]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="0"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[10]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="1"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[11]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="2"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[12]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="0"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[13]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="1"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[14]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="1"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[15]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="5"/>
+          </crossBin>
+        </cross>
+      </cgInstance>
+      <cgInstance name="SARADCCoverGroup_3" key="0">
+        <options/>
+        <cgId cgName="SARADCCoverGroup" moduleName="SARADCCoverGroup">
+          <cginstSourceId file="1" line="1" inlineCount="1"/>
+          <cgSourceId file="1" line="1" inlineCount="1"/>
+        </cgId>
+        <coverpoint name="cp_V_in" key="0">
+          <options/>
+          <coverpointBin name="V_in_range[0]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="16"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[1]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="13"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[2]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="17"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[3]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="13"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[4]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="12"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[5]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="13"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[6]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="14"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[7]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="19"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[8]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="11"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[9]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="20"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[10]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="25"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[11]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="19"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[12]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="15"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[13]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="16"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[14]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="14"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="V_in_range[15]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="14"/>
+            </range>
+          </coverpointBin>
+        </coverpoint>
+        <coverpoint name="cp_preset" key="0">
+          <options/>
+          <coverpointBin name="reset_active" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="6"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="reset_inactive" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="245"/>
+            </range>
+          </coverpointBin>
+        </coverpoint>
+        <coverpoint name="cp_psample_rate" key="0">
+          <options/>
+          <coverpointBin name="mod1" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="mod2" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="mod3" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="mod4" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="250"/>
+            </range>
+          </coverpointBin>
+        </coverpoint>
+        <coverpoint name="cp_pEOC" key="0">
+          <options/>
+          <coverpointBin name="taken" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="13"/>
+            </range>
+          </coverpointBin>
+        </coverpoint>
+        <coverpoint name="cp_pD_out" key="0">
+          <options/>
+          <coverpointBin name="D_out_range[0]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[1]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="5"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[2]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="7"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[3]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="2"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[4]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="5"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[5]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[6]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[7]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[8]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="197"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[9]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="5"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[10]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="7"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[11]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="4"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[12]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="9"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[13]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="4"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[14]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="3"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="D_out_range[15]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="2"/>
+            </range>
+          </coverpointBin>
+        </coverpoint>
+        <cross name="cross_EOC_D_out" key="0">
+          <options/>
+          <crossExpr>cp_pEOC</crossExpr>
+          <crossExpr>cp_pD_out</crossExpr>
+          <crossBin name="&lt;taken,D_out_range[0]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="1"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[1]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="2"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[2]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="2"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[3]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="0"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[4]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="0"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[5]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="0"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[6]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="0"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[7]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="0"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[8]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="1"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[9]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="2"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[10]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="1"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[11]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="1"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[12]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="0"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[13]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="2"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[14]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="0"/>
+          </crossBin>
+          <crossBin name="&lt;taken,D_out_range[15]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="1"/>
+          </crossBin>
+        </cross>
+        <cross name="cross_EOC_V_in" key="0">
+          <options/>
+          <crossExpr>cp_pEOC</crossExpr>
+          <crossExpr>cp_V_in</crossExpr>
+          <crossBin name="&lt;taken,V_in_range[0]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="0"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[1]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="0"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[2]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="1"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[3]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="2"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[4]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="0"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[5]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="1"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[6]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="1"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[7]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="1"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[8]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="0"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[9]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="0"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[10]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="1"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[11]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="2"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[12]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="0"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[13]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="1"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[14]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="2"/>
+          </crossBin>
+          <crossBin name="&lt;taken,V_in_range[15]&gt;" key="0" type="default">
+            <index>-1</index>
+            <contents coverageCount="1"/>
+          </crossBin>
+        </cross>
+      </cgInstance>
+    </covergroupCoverage>
+  </instanceCoverages>
+</UCIS>
