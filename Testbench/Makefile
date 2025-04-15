@@ -14,7 +14,10 @@ VERILOG_SOURCES += ../SAR_ADC_RTL/DAC.sv  ../SAR_ADC_RTL/SAR.sv  ../SAR_ADC_RTL/
 TOPLEVEL = SAR_ADC
 
 # MODULE is the basename of the Python test file
-MODULE = SAR_ADC_test
+#	# to run Single Test
+# MODULE = SAR_ADC_SingleTest
+#	# to run Mutli Test
+MODULE = SAR_ADC_MultiTest
 
 # Compilation arguments
 VLOG_ARGS += -mfcu -cuname -timescale=1ns/1fs
